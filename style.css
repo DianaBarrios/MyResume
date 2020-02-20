@@ -22,3 +22,11 @@ section {
 .date {
     font-style: italic;
 }
+
+#profile {
+    width: 300px;
+    height: 315px;
+    align-self: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}

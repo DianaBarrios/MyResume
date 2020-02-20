@@ -1,6 +1,6 @@
 <h1>My Resume </h1>
-<p>This is my resume in a web page.</p>
-<a href="https://dianabarrios.github.io/MyResume/">I want to see it!</a>
+<p>This is <a href="https://dianabarrios.github.io/MyResume/">my resume</a> in a web page.</p>
+
 
 <h3>Sections included:</h3>
 <ul>

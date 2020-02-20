@@ -8,11 +8,12 @@ header {
 }
 
 footer {
+    margin-top: 45px;
     text-align: center;
 }
 
 section {
-    margin-bottom: 35px;
+    margin-top: 45px;
 }
 
 .place {
@@ -21,6 +22,10 @@ section {
 
 .date {
     font-style: italic;
+}
+
+.description {
+    font-size: 80%; 
 }
 
 #profile {

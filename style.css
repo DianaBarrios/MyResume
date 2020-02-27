@@ -1,199 +1,200 @@
 body {
-    font-family: monospace;
-    padding: 4%;
+  font-family: monospace;
+  padding: 4%;
 }
 
 header {
-    text-align: center;
+  text-align: center;
 }
 
 section {
-    margin-top: 45px;
-    padding: 5%;
+  margin-top: 45px;
+  padding: 5%;
 }
 
-h1:hover, h2:hover{
-    color: magenta;
+h1:hover,
+h2:hover {
+  color: magenta;
 }
 
-h3:hover{
-    color: red;
+h3:hover {
+  color: red;
 }
 
 footer {
-    text-align: center;
+  text-align: center;
 }
 
 #objective {
-    background-color: rgb(206, 255, 206);
-    align-self: auto;
+  background-color: rgb(206, 255, 206);
+  align-self: auto;
 }
 
 #experience {
-    background-color: rgb(255, 217, 249);
-    justify-self: center;
-    align-self: center;
+  background-color: rgb(255, 217, 249);
+  justify-self: center;
+  align-self: center;
 }
 
 #education {
-    background-color: beige;
-    justify-self: center;
-    align-self: center;
+  background-color: beige;
+  justify-self: center;
+  align-self: center;
 }
 
 #interests {
-    background-color: rgb(189, 252, 247);
-    justify-self: auto;
-    align-self: center;
+  background-color: rgb(189, 252, 247);
+  justify-self: auto;
+  align-self: center;
 }
 
 #nav {
-    background-color: aquamarine;
-    text-align: center;
-    justify-self: center;
-    align-self: center;
+  background-color: aquamarine;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
 }
 
 #photo {
-    text-align: center;
-    justify-self: center;
-    align-self: center;
-    padding: 10%;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  padding: 10%;
 }
 
 #profile {
-    width: 220px;
-    height: 230px;
+  width: 220px;
+  height: 230px;
 }
 
 .place {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .date {
-    font-style: italic;
+  font-style: italic;
 }
 
 .description {
-    font-size: 80%; 
+  font-size: 80%;
 }
 
-#container{
-    display: grid;
-    justify-content: center;
+#container {
+  display: grid;
+  justify-content: center;
 }
 
-@media (min-width: 600px) and (max-width: 990px){
-    #container {
-        grid-template-columns: 46% 60%;
-        grid-template-rows: repeat(5,auto);
-    }
+@media (min-width: 480px) and (max-width: 990px) {
+  #container {
+    grid-template-columns: 46% 60%;
+    grid-template-rows: repeat(5, auto);
+  }
 
-    header {
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
+  header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
 
-    #objective {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
+  #objective {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
 
-    #education {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
+  #education {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
 
-    #interests{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
+  #interests {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
 
-    #photo {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 5;
-        grid-row-end: 6;
-    }
+  #photo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
 
-    #nav {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 5;
-        grid-row-end: 6;
-    }
+  #nav {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
 
-    #experience {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 5;
-        align-self: auto;
-    }
+  #experience {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    align-self: auto;
+  }
 }
 
-@media (min-width: 991px){
-    #container {
-        grid-template-columns: 30% 50% 20%;
-        grid-template-rows: repeat(4,auto);
-    }
+@media (min-width: 991px) {
+  #container {
+    grid-template-columns: 30% 50% 20%;
+    grid-template-rows: repeat(4, auto);
+  }
 
-    header {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
+  header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
 
-    #objective {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
+  #objective {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
 
-    #education {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
+  #education {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
 
-    #interests{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 4;
-        grid-row-end: 5;
-        align-self: auto;
-    }
+  #interests {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    align-self: auto;
+  }
 
-    #photo {
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
+  #photo {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
 
-    #nav {
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 2;
-        grid-row-end: 4;
-    }
+  #nav {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
 
-    #experience {
-        grid-column-start: 2;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 5;
-        align-self: auto;
-    }
+  #experience {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    align-self: auto;
+  }
 }
